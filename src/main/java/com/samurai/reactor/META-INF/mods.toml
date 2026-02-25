@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="samuraireactor"
+version="1.0.0"
+displayName="FE Resource Reactor"
+displayURL=""
+authors="Samurai Coder"
+description='''
+Мод, добавляющий реактор, который генерирует ресурсы из FE энергии.
+'''
+[[dependencies.samuraireactor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.samuraireactor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
